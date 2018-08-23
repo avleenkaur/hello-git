@@ -1,0 +1,23 @@
+1. git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+DESCRIPTION -Configure the author name and email address to be used with your commits.
+Note that Git strips some characters (for example trailing periods) from user.name.
+2. git init
+Create new local repository.
+3. git add <filename>
+git add *
+DESCRIPTION- Add one or more files to staging (index):
+4. git commit -m "Commit message"
+DESCRIPTION-Commit changes to head (but not yet to the remote repository):
+5.git commit -a
+Commit any files you've added with git add, and also commit any files you've changed since then:
+6.git push origin master
+DESCRIPTION-Send changes to the master branch of your remote repository:
+7. git status
+DESCRIPTION-List the files you've changed and those you still need to add or commit:
+8. git remote add origin <server>
+DESCRIPTION-If you haven't connected your local repository to a remote server, add the server to be able to push to it:
+9. git remote -v
+List all currently configured remote repositories:
+10.git pull
+Fetch and merge changes on the remote server to your working directory:
